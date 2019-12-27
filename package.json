@@ -1,5 +1,5 @@
 {
-  "name": "string_builder",
+  "name": "simple-string-builder",
   "version": "1.0.0",
   "description": "Yet another simple StringBuilder library",
   "main": "index.js",
@@ -23,7 +23,8 @@
     "build",
     "concat",
     "concatenate",
-    "es6"
+    "es6",
+    "simple"
   ],
   "author": "SwiftWinds",
   "license": "MIT",
