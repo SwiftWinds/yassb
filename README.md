@@ -44,7 +44,7 @@ console.log(sb.isEmpty(), emptySb.isEmpty());
 
 // there is no empty line at the beginning of the StringBuilder
 const anotherSb = new StringBuilder();
-anotherSb.addLine("This is the first line");
+anotherSb.addLine("This is the first (and last) line");
 console.log(anotherSb.toString());
 //=> This is the first line
 ```
