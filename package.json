@@ -1,6 +1,6 @@
 {
   "name": "yassb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another simple StringBuilder",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SwiftWinds/string_builder.git"
+    "url": "git+https://github.com/SwiftWinds/yassb.git"
   },
   "keywords": [
     "yet",
@@ -31,9 +31,9 @@
   "author": "SwiftWinds",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SwiftWinds/string_builder/issues"
+    "url": "https://github.com/SwiftWinds/yassb/issues"
   },
-  "homepage": "https://github.com/SwiftWinds/string_builder#readme",
+  "homepage": "https://github.com/SwiftWinds/yassb#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
