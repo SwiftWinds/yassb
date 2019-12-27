@@ -15,7 +15,12 @@ class StringBuilder {
   }
 
   addLine(str = '') {
-    return this.add(`\n${str}`);
+    if (this.isEmpty() && !isEmpty(str)) {
+      this.string = str;
+    } else {
+      this.string += `\n${str}`;
+    }
+    return this;
   }
 
   isEmpty() {

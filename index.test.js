@@ -42,12 +42,19 @@ test('should output \\n', () => {
 test('should output true', () => {
   const sb1 = new StringBuilder();
 
-  const sb2 = new StringBuilder('');
+  const sb2 = new StringBuilder('test');
 
   const sb3 = new StringBuilder();
   sb3.add().add('');
 
   expect(sb1.isEmpty()).toBeTruthy();
-  expect(sb2.isEmpty()).toBeTruthy();
+  expect(sb2.isEmpty()).toBeFalsy();
   expect(sb3.isEmpty()).toBeTruthy();
+});
+
+test('should output "Another hello world."', () => {
+  const sb = new StringBuilder();
+  sb.addLine('Another hello world.');
+
+  expect(sb.toString()).toBe('Another hello world.');
 });

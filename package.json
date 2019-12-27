@@ -1,7 +1,7 @@
 {
-  "name": "simple-string-builder",
+  "name": "yassb",
   "version": "1.0.0",
-  "description": "Yet another simple StringBuilder library",
+  "description": "Yet another simple StringBuilder",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,6 +11,9 @@
     "url": "git+https://github.com/SwiftWinds/string_builder.git"
   },
   "keywords": [
+    "yet",
+    "another",
+    "simple",
     "string",
     "builder",
     "stringbuilder",
@@ -23,8 +26,7 @@
     "build",
     "concat",
     "concatenate",
-    "es6",
-    "simple"
+    "es6"
   ],
   "author": "SwiftWinds",
   "license": "MIT",
