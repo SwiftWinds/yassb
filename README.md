@@ -2,6 +2,8 @@
 
 > Yet another simple StringBuilder
 
+> Useful if you want to log to a string instead of the console
+
 Please consider following this project's author, [SwiftWinds](https://github.com/SwiftWinds), and starring the project to show your ❤️ and support.
 
 ## Installation

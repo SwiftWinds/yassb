@@ -1,6 +1,6 @@
 {
   "name": "yassb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yet another simple StringBuilder",
   "main": "index.js",
   "scripts": {
