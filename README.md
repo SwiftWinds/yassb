@@ -48,7 +48,7 @@ console.log(sb.isEmpty(), emptySb.isEmpty());
 const anotherSb = new StringBuilder();
 anotherSb.addLine("This is the first (and last) line");
 console.log(anotherSb.toString());
-//=> This is the first line
+//=> This is the first (and last) line
 ```
 
 ## Contributing
