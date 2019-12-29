@@ -1,6 +1,6 @@
 {
   "name": "yassb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Yet another simple StringBuilder",
   "main": "index.js",
   "scripts": {
@@ -17,16 +17,20 @@
     "string",
     "builder",
     "stringbuilder",
+    "string-builder",
+    "string_builder",
     "add",
     "addLine",
     "append",
     "appendLine",
-    "string_builder",
-    "string-builder",
     "build",
     "concat",
     "concatenate",
-    "es6"
+    "es6",
+    "console",
+    "console.log",
+    "console.log()",
+    "log"
   ],
   "author": "SwiftWinds",
   "license": "MIT",
