@@ -46,6 +46,7 @@
   },
   "homepage": "https://github.com/SwiftWinds/yassb#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.25",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
