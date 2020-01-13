@@ -1,6 +1,6 @@
-const isEmpty = require('is-empty');
+import isEmpty from 'is-empty';
 
-class StringBuilder {
+export default class StringBuilder {
   constructor(str = '') {
     this.string = str;
   }
@@ -31,5 +31,3 @@ class StringBuilder {
     return this.string;
   }
 }
-
-module.exports = StringBuilder;

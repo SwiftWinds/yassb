@@ -1,4 +1,4 @@
-const StringBuilder = require('./index');
+const StringBuilder = require('../index');
 
 test('should output empty string', () => {
   const sb1 = new StringBuilder().add('');
