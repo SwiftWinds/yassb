@@ -4,6 +4,7 @@
   "description": "Yet another simple StringBuilder",
   "main": "index.js",
   "scripts": {
+    "version": "npx @pika/pack",
     "build": "pika build",
     "test": "jest"
   },
