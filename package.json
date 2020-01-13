@@ -6,6 +6,8 @@
   "scripts": {
     "version": "npx @pika/pack",
     "build": "pika build",
+    "prepublish": "npm run build",
+    "publish": "pika publish",
     "test": "jest"
   },
   "repository": {
